@@ -1,0 +1,194 @@
+.fav-page {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.fav-page .cnt {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-box .table-list .txt {
+    margin-right: 100px;
+    text-align: center;
+    font-family: "Roboto Serif";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.fav-page .cnt .fav-box .table-list .like {
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
+    margin-left: 100px;
+}
+
+.fav-page .cnt .fav-box .table-list .save {
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
+    margin-left: 100px;
+}
+
+.fav-page .cnt .fav-main .like {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like .pagination-section {
+    margin-top: 30px;
+}
+
+.fav-page .cnt .fav-main .like-cnt {
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd {
+    width: 380px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .img-crd {
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .img-crd .img {
+    width: 100%;
+    height: auto;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns .main {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns .main .views {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    color: #000;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns .main .views .like {
+    width: 30px;
+    height: 24px;
+    color: red;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns .main .views .vew {
+    width: 30px;
+    height: 24px;
+    color: rgb(162, 162, 162);
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .view-btns .book-mark {
+    width: 30px;
+    height: 30px;
+    margin-right: 150px;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .info .name {
+    margin-left: 5px;
+    font-family: "Roboto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    color: #000;
+}
+
+.fav-page .cnt .fav-main .like-cnt .like-crd .info-box .info .gender {
+    margin-left: 5px;
+    font-family: "Roboto Serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    color: #000;
+}

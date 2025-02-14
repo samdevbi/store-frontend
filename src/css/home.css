@@ -1,0 +1,815 @@
+.homepage {
+  width: 100%;
+  height: auto;
+  background-color: #F8F8FF;
+}
+
+/* * Category Jewelries * */
+.homepage .category {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category .category-list {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category .category-list .main-text {
+  text-align: center;
+  font-family: "Roboto Serif";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 20px;
+  color: #000;
+}
+
+.homepage .category .category-list .category-main {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category .category-list .category-main .category-1 {
+  width: 306px;
+  height: 350px;
+  /* background: rgb(249, 247, 239); */
+  display: flex;
+  text-decoration: none;
+}
+
+.homepage .category .category-list .category-main .category-1 .card-view {
+  width: 306px;
+  height: 350px;
+  background: url("/public/img/earings.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category .category-list .category-main .category-1 .card-view2 {
+  width: 306px;
+  height: 350px;
+  background: url("/public/img/neckleces.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category .category-list .category-main .category-1 .card-view3 {
+  width: 306px;
+  height: 350px;
+  background: url("/public/img/rings.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category .category-list .category-main .category-1 .card-view4 {
+  width: 306px;
+  height: 350px;
+  background: url("/public/img/bracelets.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* .homepage .category .category-list .category-main .category-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249, 247, 239);
+} */
+
+.homepage .category .category-list .category-main .category-1 .bracelets {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 32px;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+/* Category Watch */
+.homepage .category-watch {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category-watch .category-list {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category-watch .category-list .main-text {
+  text-align: center;
+  font-family: "Roboto Serif";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 20px;
+  color: #000;
+}
+
+.homepage .category-watch .category-list .category-main {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 {
+  width: 310px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .card-view {
+  width: 306px;
+  height: 450px;
+  background: url("/public/img/analuge.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .card-view2 {
+  width: 306px;
+  height: 450px;
+  background: url("/public/img/hybridWatch.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .card-view3 {
+  width: 306px;
+  height: 450px;
+  background: url("/public/img/casioPng.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .card-view4 {
+  width: 306px;
+  height: 450px;
+  background: url("/public/img/automaticWatch.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .text-category {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .category-watch .category-list .category-main .category-1 .card-text .watch {
+  width: 100%;
+  height: 80px;
+  font-size: 32px;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+
+/* * Trend Jewelries * */
+.homepage .trend-jewelry-frame {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 50px;
+  display: flex;
+  background: #f8f8ff;
+}
+
+.homepage .trend-jewelry-frame .trand-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.homepage .trend-jewelry-frame .trand-section .category-title {
+  text-align: center;
+  font-family: "Roboto Serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.homepage .trend-jewelry-frame .trand-section .category-small {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: "Roboto Serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px rgb(249, 247, 239);
+  background-color: #F8F8FF;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .buttons {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .buttons .add-to {
+  width: 120px;
+  height: 20px;
+  margin-left: 10px;
+  text-wrap: nowrap;
+  background: #e3c08d;
+  border-radius: 2rem
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .buttons .views {
+  width: 70px;
+  height: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .buttons .like {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .card-img .img {
+  width: 100%;
+  height: 350px;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info {
+  width: 100%;
+  height: 15px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info .jewelry-name {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info .jewelry-price {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info .jewelry-material {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info .yes {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.homepage .trend-jewelry-frame .trand-section .cards-frame .card .info-list .info .yes .star {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+.homepage .trend-jewelry-frame .no-data {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #e3c08d;
+}
+
+/* * Popular Watches * */
+.homepage .popular-watch-frame {
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  background: #f8f8ff;
+}
+
+.homepage .popular-watch-frame .trand-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.homepage .popular-watch-frame .trand-section .category-title {
+  text-align: center;
+  font-family: "Roboto Serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.homepage .popular-watch-frame .trand-section .category-small {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: "Roboto Serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+
+.homepage .popular-watch-frame .trand-section .cards-frame {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px rgb(249, 247, 239);
+  background-color: #F8F8FF;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .buttons {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .buttons .add-to {
+  width: 120px;
+  height: 20px;
+  margin-left: 10px;
+  text-wrap: nowrap;
+  background: #e3c08d;
+  border-radius: 2rem
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .buttons .views {
+  width: 70px;
+  height: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .buttons .like {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .card-img .img {
+  width: 100%;
+  height: 350px;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list {
+  width: 100%;
+  height: 56px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info {
+  width: 100%;
+  height: 15px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info .watch-name {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info .watch-price {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info .watch-func {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info .yes {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.homepage .popular-watch-frame .trand-section .cards-frame .card .info-list .info .yes .star {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+.homepage .popular-watch-frame .no-data {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #e3c08d;
+}
+
+/* * ADVERTISEMENT* */
+.homepage .ads-restaurant-frame {
+  width: 100%;
+  height: 693px;
+  display: flex;
+  overflow: hidden;
+  transform: perspective(0px);
+  box-shadow: -3px 0px 20px 14px #34343480;
+}
+
+.homepage .ads-restaurant-frame .ads-video {
+  width: 100%;
+  background: #0c0e12;
+  display: flex;
+  box-shadow: 0px -8px 90px rgb(215 215 255);
+  transform: scale(1.5);
+  overflow: hidden;
+}
+
+/* * ACTIVE USERS* */
+.homepage .active-users {
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  background: #f8f8ff;
+}
+
+.homepage .active-users .trand-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage .active-users .trand-section .category-title {
+  text-align: center;
+  margin-left: -1100px;
+  font-family: "Roboto Serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.homepage .active-users .trand-section .category-small {
+  text-align: start;
+  margin-left: -1060px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-family: "Roboto Serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+
+.homepage .active-users .trand-section .cards-frame {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .active-users .trand-section .cards-frame .card {
+  width: 300px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px black;
+  background-color: #F8F8FF;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .card-img .img {
+  width: 296px;
+  height: 380px;
+  border: solid 1px black;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list .info {
+  width: 100%;
+  height: 10px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list .info .user-name {
+  font-family: "Roboto Serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list .info .user-location {
+  font-family: "Roboto Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list .info .yes {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.homepage .active-users .trand-section .cards-frame .card .info-list .info .yes .star {
+  width: 15px;
+  height: 15px;
+}
+
+.homepage .active-users .no-data {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #e3c08d;
+}
+
+/** Our Store **/
+
+.homepage .our {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .our .name {
+  text-align: start;
+  margin-bottom: 60px;
+  margin-left: -1100px;
+  font-family: "Roboto Serif";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.homepage .our .our-store {
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(249, 247, 239);
+}
+
+.homepage .our .our-store .main-text {
+  width: 600px;
+  height: 600px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.homepage .our .our-store .main-text .title {
+  text-align: start;
+  margin-left: -200px;
+  font-family: "Roboto Serif";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-wrap: nowrap;
+  color: #000;
+}
+
+.homepage .our .our-store .main-text .context {
+  text-align: start;
+  margin-bottom: 60px;
+  font-family: "Roboto Serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  color: #000;
+}
+
+.homepage .our .our-store .main-img {
+  width: 900px;
+  height: 600px;
+  margin-right: 20px;
+}
+
+.homepage .our .our-store .main-img .img {
+  width: 800px;
+  height: 700px;
+}

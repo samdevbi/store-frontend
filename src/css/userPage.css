@@ -1,0 +1,366 @@
+.user-page {
+	width: 100%;
+	height: auto;
+	display: flex;
+	background: #f8f8ff;
+}
+
+.user-page .container {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.user-page .container .title {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: "Roboto Serif";
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 20px;
+	color: #000;
+}
+
+.user-page .container .my-frame {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-page .container .my-frame .my-right {
+	width: 600px;
+	height: auto;
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-page .container .my-frame .my-right .right {
+	width: 600px;
+	height: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.user-page .container .my-frame .my-right .right .user-img {
+	width: 200px;
+	height: 250px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-page .container .my-frame .my-right .right .user-img .img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media .media-icn {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media .facebook {
+	color: rgb(0, 94, 255);
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media .instagram {
+	color: rgb(166, 0, 255);
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media .telegram {
+	color: rgb(0, 166, 255);
+
+}
+
+.user-page .container .my-frame .my-right .right .user-img .media .youtube {
+	color: red;
+}
+
+.user-page .container .my-frame .my-right .right .info {
+	width: 100%;
+	height: 350px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.user-page .container .my-frame .my-right .right .info .name {
+	width: 100%;
+	height: 10px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .container .my-frame .my-right .right .info .two {
+	width: 100%;
+	height: 8px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: lighter;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .container .my-frame .my-right .right .info .two .phone {
+	width: 20px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.user-page .container .my-frame .my-right .right .info .desc {
+	width: 300px;
+	height: 150px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.user-page .container .my-frame .my-right .right .info .desc .descr {
+	margin-bottom: 5px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .container .my-frame .my-right .right .info .desc .context {
+	width: 250px;
+	height: 150px;
+	margin-top: 5px;
+	padding-left: 5px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .container .my-frame .my-right .right .divider {
+	width: 100px;
+	height: 2px;
+	color: black;
+}
+
+/* Settings */
+
+.user-page .settings {
+	width: 500px;
+	height: auto;
+	margin-top: 30px;
+	margin-right: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .input-frame {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.user-page .settings .short-input {
+	width: 49%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .long-input {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .spec-label {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #f8f8ff;
+}
+
+.user-page .settings .spec-input {
+	position: relative;
+	margin-top: 10px;
+	padding-left: 20px;
+	width: 100%;
+	height: 54px;
+	border: none;
+	background: #f0f0fb;
+	border-radius: 5px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .settings .spec-textarea {
+	position: relative;
+	margin-top: 10px;
+	padding: 20px;
+	width: 100%;
+	height: 200px;
+	border: none;
+	background: #f0f0fb;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .settings .member-media-frame {
+	margin-top: 25px;
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	border-radius: 5px;
+}
+
+.user-page .settings .member-media-frame .mb-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.user-page .settings .media_change-box {
+	position: relative;
+	margin-left: 20px;
+	width: auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .media-change-box span {
+	margin-left: 10px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .settings .media-change-box p {
+	margin-left: 10px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.user-page .settings .up-del-box {
+	position: relative;
+	width: 37px;
+	height: 37px;
+	display: flex;
+	background: #cbcbcb;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-page .settings .up-del-box input {
+	position: absolute;
+	width: 20px;
+	height: 16px;
+	padding: 0;
+	background: red;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.user-page .settings .save-box {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 25px;
+}
+
+.user-page .settings .save-box .btn {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: start;
+	font-family: "Roboto Serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #000;
+	background: #cbcbcb;
+}
